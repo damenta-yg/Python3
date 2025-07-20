@@ -30,3 +30,18 @@ print(x)
 for num in range(10,20):
     if(num % 2 != 0):
         print(num)
+
+
+#while
+"""
+while loops continue to execute while a certain condition is truuthy and will end when it become falsy
+"""
+
+#break
+"""
+break gives us the ability to exit out of while loops whenever we want
+"""
+
+user_response = None
+while user_response != "please":
+    user_response = input("Please say the magic word: ")
