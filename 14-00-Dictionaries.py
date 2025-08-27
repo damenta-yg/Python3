@@ -23,6 +23,7 @@ print(my_self)
 for key, value in my_self.items():
     print(f"The key is {key} and the value is {value}")
 
+print("ini disini")
 results_test_key = "girlfriend" in my_self
 print(results_test_key)
 
